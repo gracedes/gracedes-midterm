@@ -1,3 +1,5 @@
+### ⚠️this branch contains work done after submission for my own enjoyment. if you are here to grade this assignment, please see `main` for all work done before the deadline⚠️
+
 # Predicting Amazon Reviews Using Past Review Data & K-Nearest Neighbors
 ### Usefulness of Given Data Columns for Analysis
 In the analysis of Amazon reviews, numerous data columns were available, such as review text, review score, helpfulness ratings, and the time of the review. I started this assignment by experimenting with each of these to investigate their impact on the predictive model. The helpfulness rating, proved to have a minimal effect on the overall prediction accuracy, but it was a consistently positive effect so I decided to keep it. The time of review ended up being a problematic feature, as throughout my testing the time data actually introduced noise, leading to lower accuracy, so it was dropped. I shifted focus towards the text content of the reviews, which promised more correlated to the corresponding score.
