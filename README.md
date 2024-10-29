@@ -14,3 +14,14 @@ Of course, you can’t just read the body text of the review, since this can be 
 In addition to sentiment analysis, other text features were explored, including word count, average word length, and vocabulary richness (measured by unique word count divided by total words). I thought these features could  add depth to the model by providing quantitative measures of the review's complexity and lexical diversity. However, while experimenting, it became evident that incorporating these additional features did not significantly improve the model's performance. In fact, they complicated the analysis and confused the KNN algorithm, sometimes making it less accurate. As a result, they were ultimately excluded from the final feature set, allowing for a more simple and streamlined model.
 ### Future Additions
 If time had permitted further exploration, I would have incorporated a few additional features to refine the model. Specifically, I had written the code to find the average score and deviation from the average for each user and product, which would be very useful, but unfortunately I just ran out of time while waiting for the data to process. This code can be found in the `post-submission` branch, becuase honestly I want to continue experimenting a bit for my own enjoyment. Understanding how individual users rate products relative to their past behavior would likely have greatly increased the predictive power of the model.
+
+#### Packages used in my code:
+- https://github.com/cjhutto/vaderSentiment
+- https://github.com/nalepae/pandarallel/
+
+#### Sources consulted:
+- https://medium.com/illumination/top-5-techniques-for-sentiment-analysis-in-natural-language-processing-c07ba5b83f64
+- https://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf
+- https://medium.com/@piocalderon/vader-sentiment-analysis-explained-f1c4f9101cd9
+- https://towardsdatascience.com/predicting-sentiment-of-amazon-product-reviews-6370f466fa73
+- https://minimaxir.com/2017/01/amazon-spark/
